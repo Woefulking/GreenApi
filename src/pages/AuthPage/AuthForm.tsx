@@ -34,11 +34,11 @@ export const AuthForm = ({ onAuth }: AuthFormProps) => {
       </div>
 
       <div className="flex flex-col gap-2">
-        <label htmlFor="idInstance" className="text-[#7f91a4] text-md">
+        <label htmlFor="apiUrl" className="text-[#7f91a4] text-md">
           Api Url
         </label>
         <input
-          id="idInstance"
+          id="apiUrl"
           type="text"
           value={apiUrl}
           onChange={(e) => setApiUrl(e.target.value)}
