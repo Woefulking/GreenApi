@@ -6,7 +6,7 @@ interface Props {
 }
 
 export const ProtectedRoute = ({ children }: Props) => {
-  const credentials = localStorage.getItem('greenApiCredentials');
+  const credentials = sessionStorage.getItem('greenApiCredentials');
 
   if (!credentials) {
     return <Navigate to="/" replace />;
