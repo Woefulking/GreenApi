@@ -22,7 +22,7 @@ export const CreateChat = ({ onCreateChat }: CreateChatProps) => {
       className="w-full max-w-sm bg-[#242f3d] rounded-2xl p-8 shadow-2xl flex flex-col gap-6"
     >
       <div className="text-center">
-        <h1 className="text-white text-2xl font-semibold mb-1">Новый чат</h1>
+        <h1 className="text-white text-2xl font-semibold mb-1">Создать чат</h1>
         <p className="text-[#7f91a4] text-md">Введите номер телефона получателя</p>
       </div>
 

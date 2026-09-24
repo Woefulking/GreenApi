@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { getCredentials } from '../../api/greenApi';
+import { getCredentials } from 'api/greenApi';
 import { CreateChat } from './CreateChat';
 import { ChatWindow } from './ChatWindow';
 

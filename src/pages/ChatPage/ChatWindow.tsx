@@ -4,7 +4,7 @@ import {
   receiveNotification,
   sendMessage,
   type GreenApiCredentials,
-} from '../../api/greenApi';
+} from 'api/greenApi';
 import { ArrowLeft, Send, User } from 'lucide-react';
 
 interface ChatWindowProps {
