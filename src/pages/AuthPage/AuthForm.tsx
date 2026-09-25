@@ -77,7 +77,7 @@ export const AuthForm = ({ onAuth }: AuthFormProps) => {
 
       <button
         type="submit"
-        disabled={!idInstance.trim() || !apiToken.trim()}
+        disabled={!idInstance.trim() || !apiToken.trim() || !apiToken.trim()}
         className="bg-[#5288c1] hover:bg-[#4a7ab0] disabled:bg-[#3a4a5a] disabled:cursor-not-allowed text-white font-medium rounded-lg py-3 transition-colors"
       >
         Войти
